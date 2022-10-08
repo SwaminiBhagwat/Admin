@@ -1,0 +1,160 @@
+{
+  "reg": [
+    {
+      "name": "gtrt",
+      "email": "rishabhgu@gmail.com",
+      "password": "1234567",
+      "confirm password": "1234567",
+      "date_of_birth": "2022-09-28",
+      "gender": "female",
+      "phone_no": "6589632541",
+      "address": "25",
+      "id": 1
+    },
+    {
+      "name": "hfhshushg",
+      "email": "hjhdhf@gmail.com",
+      "password": "1234567",
+      "confirm password": "1234567",
+      "date_of_birth": "2022-09-28",
+      "gender": "female",
+      "phone_no": "5632236512",
+      "address": "95",
+      "id": 2
+    },
+    {
+      "name": "gtrt",
+      "email": "rishabhgu@gmail.com",
+      "password": "12365478",
+      "confirm password": "12365478",
+      "date_of_birth": "2022-10-01",
+      "gender": "female",
+      "phone_no": "6589632541",
+      "address": "52",
+      "id": 3
+    },
+    {
+      "name": "gfhgdyfdhgk",
+      "email": "rishabhgu@cybage.com",
+      "password": "1234567",
+      "confirm password": "1234567",
+      "date_of_birth": "2022-10-01",
+      "gender": "female",
+      "phone_no": "3652365212",
+      "address": "22",
+      "id": 4
+    },
+    {
+      "name": "avanish",
+      "email": "avi@gmail.com",
+      "password": "12345678",
+      "confirm password": "12345678",
+      "date_of_birth": "2022-10-01",
+      "gender": "female",
+      "phone_no": "8523697412",
+      "address": "22",
+      "id": 5
+    },
+    {
+      "name": "hjhuvh",
+      "email": "gh@gmail.com",
+      "password": "12345678",
+      "confirm password": "12345678",
+      "date_of_birth": "2022-09-26",
+      "gender": "female",
+      "phone_no": "8523697412",
+      "address": "1",
+      "id": 6
+    },
+    {
+      "name": "ragi",
+      "email": "khush@gmail.com",
+      "password": "12345678",
+      "confirm password": "12345678",
+      "date_of_birth": "2022-09-27",
+      "gender": "female",
+      "phone_no": "9876897689",
+      "address": "36",
+      "id": 7
+    }
+  ],
+  "admin": [
+    {
+      "name": "Rishabh",
+      "email": "rishabhgu@cybage.com",
+      "password": "12345678",
+      "confirm password": "12345678",
+      "date_of_birth": "2022-10-01",
+      "gender": "male",
+      "phone_no": "8523697412",
+      "address": "22",
+      "id": 1
+    },
+    {
+      "name": "Ritika",
+      "email": "ritikanam@cybage.com",
+      "password": "123456789",
+      "confirm password": "123456789",
+      "date_of_birth": "2022-10-01",
+      "gender": "female",
+      "phone_no": "8523697412",
+      "address": "22",
+      "id": 2
+    },
+    {
+      "name": "Sakshi",
+      "email": "sakshikam@cybage.com",
+      "password": "9876543",
+      "confirm password": "9876543",
+      "date_of_birth": "2022-10-01",
+      "gender": "female",
+      "phone_no": "8523697412",
+      "address": "22",
+      "id": 3
+    },
+    {
+      "name": "Saloni",
+      "email": "saloniw@cybage.com",
+      "password": "987654321",
+      "confirm password": "987654321",
+      "date_of_birth": "2022-10-01",
+      "gender": "female",
+      "phone_no": "8523697412",
+      "address": "22",
+      "id": 4
+    }
+  ],
+  "bookappointment": [
+    {
+      "Full_name": "ritika",
+      "Contact_Number": "1234567890",
+      "Address": "zaeuyxz",
+      "Email": "ritika@cybage.com",
+      "Date_of_birth": "2022-10-10",
+      "gender": "Female",
+      "Appointment_Date": "2022-10-18",
+      "Time_Slot": "16:07",
+      "id": 1
+    }
+  ],
+  "test": [
+    {
+      "testName": "",
+      "aboutTest": "",
+      "cost": "",
+      "id": 1
+    },
+    {
+      "testName": "HIV",
+      "aboutTest": "snfjkdsfidgndlfv",
+      "cost": "1000",
+      "id": 2
+    },
+    {
+      "testName": "urine",
+      "aboutTest": "sfsdgdgv",
+      "cost": "48668",
+      "id": 3
+    }
+  ]
+}

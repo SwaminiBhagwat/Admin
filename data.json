@@ -1,0 +1,99 @@
+{
+  "User": [
+    {
+      "name": "Vanita Natkar",
+      "email": "vanitan@cybage.com",
+      "password": "Vani",
+      "status": "admin",
+      "id": 1
+    },
+    {
+      "name": "arya Kh",
+      "email": "aryakh@cybage.com",
+      "password": "111",
+      "status": "patient",
+      "id": 11
+    }
+  ],
+  "Test": [
+    {
+      "testName": "Blood Test",
+      "aboutTest": "Blood sample will be taken from the patient and it will be analyzed",
+      "cost": "10000",
+      "id": 1
+    },
+    {
+      "testName": "",
+      "aboutTest": "",
+      "cost": "",
+      "id": 2
+    },
+    {
+      "testName": "",
+      "aboutTest": "",
+      "cost": "",
+      "id": 3
+    }
+  ],
+  "appointments": [
+    {
+      "name": "Umair",
+      "email": "umairsyd07@gmail.com",
+      "phone": "1234567890",
+      "test": "urine Test",
+      "date": "2022-10-20",
+      "time": "13:28",
+      "id": 1
+    },
+    {
+      "name": "Avanish",
+      "email": "ayush@gmail.com",
+      "phone": "1234567890",
+      "test": "Diabetes",
+      "date": "2022-10-06",
+      "time": "17:02",
+      "id": 2
+    },
+    {
+      "name": "Raj",
+      "email": "laskar@gmail.com",
+      "phone": "4545454",
+      "test": "Diabetes",
+      "date": "2022-10-26",
+      "time": "17:00",
+      "id": 3
+    },
+    {
+      "name": "Rishab",
+      "email": "rishabhgu@gmail.com",
+      "phone": "665465465",
+      "test": "pregnancy",
+      "date": "2022-10-07",
+      "time": "22:16",
+      "id": 4
+    }
+  ],
+  "Feedback": [
+    {
+      "name": "Vanita Natkar",
+      "email": "vanitan@cybage.com",
+      "phone": "07758038160",
+      "msg": "fghhrt",
+      "id": 1
+    },
+    {
+      "name": "sonali",
+      "email": "sonali@cybage.com",
+      "phone": "07758038160",
+      "msg": "it is good",
+      "id": 2
+    },
+    {
+      "name": "akshay",
+      "email": "akshay@cybage.com",
+      "phone": "07758038160",
+      "msg": "very good",
+      "id": 3
+    }
+  ]
+}

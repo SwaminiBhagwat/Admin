@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMINISTRATOR DASHBOARD</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="/Home/signin/login.html"></script>   
+<link rel="stylesheet" href="./admin.css">
+</head>
+<body>
+
+<script src="adminDash.js"></script>
+<script src="animate.js"></script>
+
+<div id="throbber" style="display:none; min-height:120px; width:80%;"></div>
+<div id="noty-holder"></div>
+<div id="wrapper">
+        
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" >
+        
+<!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+<div class="collapse navbar-collapse navbar-ex1-collapse" style="background-color: #616060; border:1px solid #616060;">
+  <ul class="nav navbar-nav side-nav">
+
+    <li>
+      <button type="button" class="btn1" id="addt" style=" margin-bottom:10px">ADD NEW LAB TEST</button>
+    </li>
+    <li>
+      
+      <li>
+        <button type="button" class="btn1" id="displaylabtests" style=" margin-bottom:10px">DISPLAY LAB TESTS</button>
+      </li>
+    
+    <li>
+      <button type="button" class="btn1" id="displayappts" style="margin-top: 10px; margin-bottom:10px">LAB APPOINTMENT</button>
+    </li>
+    <!-- <li>
+    
+    </li> -->
+    
+    <!-- <li>
+                          <br><br>
+                        </li>
+                        
+                        </li> -->
+                        <!-- <li>
+                          <button type="button" class="btn1" id="logout" onclick="logOut()">ADMIN LOGOUT</button>
+                        </li> -->
+                        
+                    </ul>
+                </div>
+                
+          </nav>
+        
+        
+        <div class="container" id="divcentre">
+       
+        <div class="row text-center">
+        <div class="col-md-12 dashhead" >
+          <marquee scrollamount="12"><h1 style="color: black"> ADMINISTRATOR DASHBOARD</h1></marquee>
+        <br>
+        <div class="conatiner-sm">
+          <div class="row">
+            <div class="col" id="addtest" style="display: none;">
+              <h2 style="color: black; text-align: center; font-weight: bolder;">ADD NEW TEST</h2>
+              
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label" style="color: black; "><b>TEST NAME</b></label>
+                <input type="text" id="testName" class="form-control" />
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputdetails" class="form-label" style="color: black"><b>ABOUT TEST</b></label>
+                <input type="text" id="details" class="form-control" />
+              </div>
+      
+              <div class="mb-3">
+                <label for="exampleInputfee1" class="form-label" style="color:black"><b>COST</b></label>
+                <input type="text" id="fee" class="form-control" />
+              </div>
+      
+          <br>
+              
+              <button type="submit" id="register" class="btn btn-primary">SUBMIT</button>
+            </div>
+
+             
+          <div class="col" id="labtestsData" style="display: none;" >
+            <button id="display1" class="btn btn-info">DISPLAY TEST LIST</button>
+            <br>
+            <br>
+            <table id="myTable1" class="table table-striped table-borderless ">
+                <tr>
+                <thead class="thead-dark">
+                <th> &nbsp; &nbsp; TEST NAME</th>
+                <th>TEST INFORMATION</th>
+                <th>COST</th>
+            
+                <th>UPDATE</th>
+                <th>REMOVE</th>
+              </thead>
+              </tr>
+    
+            </table>
+    
+          </div>
+
+          <div class="col" id="appointmentT"  style="display: none;">
+            <button id="displayappt" class="btn btn-info">DISPLAY APPOINTMENTS</button>
+            <br>
+            <br>
+            <table id="myTableapt" class="table table-striped table-borderless" >
+                <tr>
+                  <thead class="thead-dark">
+                <th>PATIENT NAME</th>
+                <th>PATIENT EMAIL</th>
+                <th>PATIENT MOBILE NO.</th>
+                <th>AVAILABLE TEST CATEGORY</th>
+                <th>APPOINTMENT DATE</th>
+                <th>APPOINTMENT TIME</th>
+                <th>STATUS</th>
+             
+              </thead>
+              </tr>
+              </table>
+        
+          </div>
+        
+          </div>
+         
+         </div>
+        
+        
+        </div>
+        </div>
+        </div>
+        
+          </div><!-- /#wrapper -->
+        </body>
+</html>
